@@ -9,7 +9,7 @@
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="us.codecraft.jobhunter.dao" />
+        <property name="basePackage" value="com.whueric.jobhunter.dao" />
     </bean>
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"

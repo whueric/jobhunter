@@ -1,4 +1,4 @@
-package us.codecraft.jobhunter.model;
+package com.whueric.jobhunter.model;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import us.codecraft.webmagic.Page;
@@ -9,9 +9,7 @@ import us.codecraft.webmagic.model.annotation.HelpUrl;
 import us.codecraft.webmagic.model.annotation.TargetUrl;
 
 /**
- * @author code4crafer@gmail.com
- *         Date: 13-6-23
- *         Time: 下午4:28
+ * @author
  */
 @TargetUrl("https://www.liepin.com/job/*")
 @HelpUrl("https://www.liepin.com/sojob/?dqs=020&curPage=\\d+")
@@ -92,7 +90,7 @@ public class LieTouJobInfo implements AfterExtractor {
                 '}';
     }
 
-    @Override
+    //@Override
     public void afterProcess(Page page) {
     }
 }

@@ -1,11 +1,11 @@
-package us.codecraft.jobhunter.dao;
+package com.whueric.jobhunter.dao;
 
+import com.whueric.jobhunter.model.LieTouJobInfo;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import us.codecraft.jobhunter.model.LieTouJobInfo;
 
 import javax.annotation.Resource;
 

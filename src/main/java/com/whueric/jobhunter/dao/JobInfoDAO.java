@@ -1,12 +1,10 @@
-package us.codecraft.jobhunter.dao;
+package com.whueric.jobhunter.dao;
 
 import org.apache.ibatis.annotations.Insert;
-import us.codecraft.jobhunter.model.LieTouJobInfo;
+import com.whueric.jobhunter.model.LieTouJobInfo;
 
 /**
- * @author code4crafer@gmail.com
- *         Date: 13-6-23
- *         Time: 下午4:27
+ * @author
  */
 public interface JobInfoDAO {
 
